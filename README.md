@@ -1,6 +1,6 @@
 # AngularWithCiCd
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.3.
+This project was created to demonstrate CI/CD using travis for angular. Textual explanation of the same can be found in [My Blog](https://medium.com/@getprabuk/angular-6-travis-ci-with-headless-chrome-58fab1b394e1)
 
 ## Development server
 
@@ -22,6 +22,6 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+## Running all tests
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Run `yarn all_tests` to execute lint, unit and end-to-end tests
